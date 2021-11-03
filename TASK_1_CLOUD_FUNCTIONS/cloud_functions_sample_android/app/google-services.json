@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "229171308419",
+    "firebase_url": "https://mental-health-7f00d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mental-health-7f00d",
+    "storage_bucket": "mental-health-7f00d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229171308419:android:c0c018c7abdfbc89b378b6",
+        "android_client_info": {
+          "package_name": "com.example.android.navigationadvancedsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229171308419-km47dfhpkr2curoa8it5eg31a093872r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.navigationadvancedsample",
+            "certificate_hash": "aa9b17051807569ac0d632628f574966b7ba3a4d"
+          }
+        },
+        {
+          "client_id": "229171308419-3g16a3rm9j843u5nk9ac05ffat1me2cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0y3HVuHSggcI-4q_He0cJZrHURv6Owfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229171308419-3g16a3rm9j843u5nk9ac05ffat1me2cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229171308419:android:ab556725e505357cb378b6",
+        "android_client_info": {
+          "package_name": "com.example.cloudfunctionssample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229171308419-3g16a3rm9j843u5nk9ac05ffat1me2cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0y3HVuHSggcI-4q_He0cJZrHURv6Owfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229171308419-3g16a3rm9j843u5nk9ac05ffat1me2cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
