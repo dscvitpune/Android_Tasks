@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".CartFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewcart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttoncheckout" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerviewcart"
+        android:layout_marginLeft="10dp"
+        android:text="Total"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/totalPriceordercart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerviewcart"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:gravity="right"
+        android:text="₹0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/buttoncheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:text="Check Out"
+        app:backgroundTint="#202D70" />
+
+
+</RelativeLayout>
